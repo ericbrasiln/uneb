@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<script src="slides_files/libs/clipboard/clipboard.min.js"></script>
+<script src="slides_files/libs/quarto-html/tabby.min.js"></script>
+<script src="slides_files/libs/quarto-html/popper.min.js"></script>
+<script src="slides_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="slides_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="slides_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="slides_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="slides_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.554">
+
+  <meta name="author" content="Eric Brasil (Unilab)">
+  <meta name="dcterms.date" content="2024-11-06">
+  <title>Carnaval, colonialismo e repressão em Port-of-Spain, Trinidad (1880-1900)</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="slides_files/libs/revealjs/dist/theme/quarto.css">
+  <link href="slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="slides_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="slides_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="slides_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="slides_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Carnaval, colonialismo e repressão em Port-of-Spain, Trinidad (1880-1900)</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Eric Brasil (Unilab) 
+</div>
+</div>
+</div>
+
+  <p class="date">2024-11-06</p>
+</section>
+<section id="introdução" class="slide level2 center">
+<h2><strong>Introdução</strong></h2>
+<ul>
+<li>Disputa pelo espaço urbano em Port-of-Spain, Trinidad.</li>
+<li>Controle e repressão de performances negras pelas forças coloniais.</li>
+<li>Reflexões sobre civilização e resistência cultural.</li>
+</ul>
+<aside class="notes">
+<p>Essa fala busca apresentar a disputa pelo espaço urbano nos dias de carnaval na cidade de Port-of-Spain, sede da colônia inglesa de Trinidad e Tobago entre as décadas de 1880 e 1900. Pretendo destacar a história social do carnaval na Ilha a partir da experiência da população negra, e como as forças coloniais buscaram controlar e reprimir suas performances a partir da construção de redes coercitivas, envolvendo imprensa, forças policiais e agentes judiciários. Ao final pretendo refletir sobre as variadas concepções de civilização em disputa na cidade de Port-of-Spain e como tais performances afro-americanas criavam dissonâncias na política colonal racista inglesa.</p>
+<p>Essas reflexões são resultado do projeto de pesquisa “Música, raça e colonialismo no Caribe: experiências negras em Trinidad e Tobago (cc. 1900 – 1920)”, desenvolvido com bolsa de iniciação científica no campus dos Malês, da Universidade da Integração Internacional da Lusofonia Afro-brasileira (Unilab/Malês). Esse trabalho não seria possível sem a participação do bolsista Beto Infande.</p>
+<p>As fontes primárias foram recolhidas nos arquivos coloniais britânicos no ano de 2014, no âmbito de pesquisa anterior financiada pelo Cnpq. Essas fontes encontram-se ainda inéditas em pesquisas no Brasil e são formadas por periódicos, documentos policiais e coloniais e legislação.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="carnaval-e-pós-abolição-no-caribe-o-caso-de-trinidad" class="slide level2 center">
+<h2><strong>Carnaval e Pós-Abolição no Caribe: o caso de Trinidad</strong></h2>
+<ul>
+<li>Contexto histórico: colônia britânica com forte herança espanhola e francesa.</li>
+<li>O Canboulay: ressignificação de tradições africanas e resistência cultural.</li>
+<li>Transformações pós-abolição e a afirmação da identidade negra.</li>
+</ul>
+<aside class="notes">
+<p>A partir do final do século XVIII, a ilha de Trinidad passou a ser colônia Britânica. Porém os 300 anos de ocupação espanhola e a permanente migração de franceses, sobretudo após a revolução do Haiti, juntamente com muitos escravos e negros livres de outras ilhas do caribe, fez com que a ilha, mesmo sob domínio de uma coroa protestante, teve uma festa carnavalesca pujante.</p>
+<p>A importância do carnaval na identidade nacional de Trinidad e Tobago é tamanha que as escolas públicas possuem suas próprias bandas carnavalescas e concursos de Calypso. A festa é considerada o grande símbolo identitário da nação, catalisando diferentes tradições.</p>
+<p>Contudo, antes de chegar a esse ponto, a história do carnaval na ilha foi disputada por inúmeros grupos sociais e o ápice dessas tensões situou-se nas últimas décadas do século XIX e na passagem para o século XX. A história da ilha de Trinidad, bem mais do que a de Tobago, foi marcada pela grande heterogeneidade social, que se intensificou justamente nesse período. Franceses (e descendentes) e ingleses permaneciam na disputa pela manutenção de seus postos de comando e de seu status social privilegiado; trabalhadores indianos chegaram em grande número ao longo do século XIX, sob condições de trabalho contratado, e aumentaram as tensões e a multiplicidade cultural dessa sociedade. Ao mesmo tempo os africanos e seus descendentes lutavam por espaço, sobretudo após a abolição da escravidão em 1834 (WOODING, 1960, p.&nbsp;147).</p>
+<p>A abolição da escravidão foi um marco importante para o carnaval da ilha. Os libertos ocuparam a festa e a transformaram, dotando-a de novos sentidos. O <strong>Canboulay</strong> (corruptela da expressão francesa <em>Cannes Brûlées</em>, da queima da cana de açúcar antes da colheita), uma sátira dos brancos sobre o mundo dos negros na <em>plantation</em>, que era tradicionalmente encenado pelos franceses no carnaval em uma performance de <em>blackface</em>, foi ressignificado pelos libertos. Segundo J.D. Elder, o <strong>Canboulay</strong></p>
+<p>como uma instituição artística negra em Trinidad e Tobago, deve ser definida como uma cerimônia simbólica multimídia, na qual suas mensagens psicológicas assumem diversas formas e se manifestam em uma variedade de comportamentos artísticos – criação musical, poesia, linguagens vernaculares, teatro, dança e outros gestos acrobáticos. Cada um desses meios está ancorado na matriz das tradições culturais africanas trazidas para o Caribe por migrantes, principalmente da África Ocidental. (ELDER, 1998, p.&nbsp;48)</p>
+<p>Os grupos de <strong>Canboulay</strong> atravessavam as ruas à noite, batendo tambores, carregando tochas numa cidade de madeira. Os tambores e archotes eram acompanhados pelo sopro de chifres e “danças africanas”. Suas músicas satirizavam as classes dominantes e faziam troças com o estilo de vida europeu. Se já não fosse o bastante ostentar símbolos condenados como primitivos e bárbaros nos jornais, a principal fantasia dos membros do grupo era o <em>negre jardin</em>, armado com cacete (<em>bois</em>, <em>poui</em>, <em>stick</em>) para duelos nas ruas (ELDER, 1998, p.&nbsp;49). O <em>stickfighting</em>, tornou-se, desta forma, um importante instrumento de violência e pressão nas mãos do proletariado urbano, organizado em grupos (<em>bands</em>) que existiam por todo o ano e saíam às ruas no carnaval (KONINGSBRUGGEN, 1997, p.&nbsp;18).</p>
+<p>Socialmente, os participantes desse carnaval de rua, eram jovens homens e mulheres negras que moravam nos <em>Barracks</em>, cortiços urbanos. As condições de vida eram muito difíceis: antigos casarões de madeira, dividas em quartos onde moravam famílias inteiras, sem privacidade, com constante disputa por água e pelo uso de banheiros. Tais disputas eram refletidas também nas formas artísticas: desafios verbais e físicos (com cacetes). Esses grupos eram encarados pela imprensa, polícia e autoridades locais como as principais ameaças à ordem e aos projetos de civilização e participação no império britânico.</p>
+<p>As duas últimas décadas do século XIX foram marcadas por intensa repressão colonial sobre tais práticas e seus sujeitos, o que gerou inúmeras revoltas e conflitos. Buscavam o silenciamento das práticas consideradas obscenas, violentas, bárbaras que, na prática, representavam as tradições dos trabalhadores urbanos de Port-of-Spain, esmagadoramente formada por afro-americanos.</p>
+<p>Segundo Peter van Koningsbruggen, ex-escravos e descendentes, imigrantes das ilhas do Caribe, africanos livres e seus descendentes possuíam em comum a exclusão da participação política, ocupavam as posições econômicas mais baixas, suas condições de vida eram péssimas e suas práticas culturais eram perseguidas e desqualificadas. Assim, o carnaval serviu aos negros de Trinidad como uma chance de expressar orgulho nos seus próprios valores, ao mesmo tempo em que ridicularizavam as classes superiores, através do <strong>Canboulay</strong>.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="carnaval-e-pós-abolição-no-caribe-o-caso-de-trinidad-1" class="slide level2 center">
+<h2><strong>Carnaval e Pós-Abolição no Caribe: o caso de Trinidad</strong></h2>
+<p>Para saber mais sobre os impactos a Abolição da escravidão no Carnaval e história de Trinidad, acesse:</p>
+<ul>
+<li><a href="https://doi.org/10.21057/repamv12n3.2018.30939">BRASIL, Eric. Abolição e Carnaval: performance e experiência social negra em Trinidad (cc. 1790-1850). <em>Revista de Estudos e Pesquisas sobre as Américas</em>, v. 12, n.&nbsp;3, p.&nbsp;204–227, 2018. DOI: 10.21057/repamv12n3.2018.30939.</a></li>
+</ul>
+</section>
+<section id="colonialismo-e-carnaval-redes-coercitivas" class="slide level2 center">
+<h2><strong>Colonialismo e carnaval: redes coercitivas</strong></h2>
+<ul>
+<li>Conceito de <strong>Redes Coercitivas</strong> (SHERMAN, 2009): formas interligadas de controle e punição.</li>
+<li>Punições incluem prisão, trabalho forçado e multas altas.</li>
+<li>A imprensa e autoridades coloniais reforçam a criminalização das práticas culturais negras.</li>
+</ul>
+<aside class="notes">
+<p>Buscando compreender o funcionamento da repressão e do controle no contexto do imperialismo britânico, Taylor Sherman (2009) utiliza o conceito de redes coercitivas (<em>Coercive Networks</em>), o que permite pensar num sistema mais amplo de punição colonial, relacional e historicamente localizado. Essa perspectiva nos possibilita reconhecer que as punições às práticas culturais negras no contexto colonial não se limitavam a uma única instituição, como a polícia. Na verdade, as práticas punitivas e de controle imperial variavam de atirar em multidões e utilizar bombardeio aéreo, para demissões do trabalho; passando pelo controle dos espaços educativos, multas coletivas, confisco de propriedade, bem como prisão, punição corporal e capital.</p>
+<p>Também, vale ressaltar que o termo ‘rede coercitiva’ para esta autora, não pretende implicar que tal sistema era coeso ou coerente. Pelo contrário, nos ajuda a compreender a natureza interligada das diferentes sanções penais coloniais. Em outras palavras, “as práticas que constituíam redes coercitivas eram definidas não tanto pela disciplina e arregimentação, mas pela contradição e pela imprevisibilidade que surgiam de sistemas repletos de tensões” (SHERMAN, 2009, p.&nbsp;669).</p>
+<p>Pensando nas redes coercitivas do governo colonial britânico em Trinidad, seus elementos eram variáveis e não deixavam o carnaval de fora. As formas de repressão à festa passava tanto pela produção textual da imprensa, quanto pela ação policial nas ruas e os julgamentos e punições definidas por magistrados coloniais. O projeto colonial britânico, nessas múltiplas frentes, entendeu as práticas negras carnavalescas como principal antagonista na passagem do século XIX para o XX, sendo alvo recorrente de uma complexa rede de coerção.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="proclamação-do-governador-1882" class="slide level2 center">
+<h2><strong>Proclamação do Governador (1882)</strong></h2>
+<blockquote>
+<p>“Qualquer pessoa que estiver <strong>mascarada, ou disfarçada de outra maneira, agredir ou espancar ilegalmente qualquer outra pessoa</strong>, deverá ser condenada perante a Justiça e <strong>presa com trabalho forçado</strong> por um período não superior a seis meses. [grifos meus]” <em>(Port-of-Spain Gazette, 18 de fevereiro de 1882, p.3)</em></p>
+</blockquote>
+<aside class="notes">
+<p>Para sustentar mais esta afirmação é importante analisar a proclamação governador Sanford Freeling de 18 de fevereiro de 1882 (<em>Port-of-Spain Gazette</em>, p.3). A proclamação dizia o seguinte:</p>
+<p>Qualquer pessoa que estiver <strong>mascarada, ou disfarçada de outra maneira,</strong> <strong>agredir ou espancar</strong> ilegalmente qualquer outra pessoa, deverá ser condenada perante uma Justiça e presa com trabalho forçado por um período não superior a seis meses.</p>
+<p>Qualquer pessoa que esteja <strong>embriagada e promova desordem</strong> em qualquer rua, e qualquer pessoa culpada de qualquer comportamento desenfreado ou indecente, ou insultuoso, obstruindo, ou irritando qualquer pessoa passando, perderá quantia não superior a cinco libras para cada tal ofensa, ir preso com ou sem trabalho forçado por período não superior a dois meses.</p>
+<p>Qualquer pessoa fazendo uso de qualquer <strong>linguagem violenta ou obscena com a intenção de provocar qualquer outra pessoa a cometer uma violação da paz</strong>, e qualquer pessoa que use qualquer linguagem obscena ou profana para aborrecimento de qualquer residente ou passageiro em qualquer rua, ou perturbar a paz perderá soma não superior a cinco libras ou ser preso com ou sem trabalho forçado por qualquer termo não superior a trinta dias.</p>
+<p>Toda pessoa que cometer qualquer das seguintes ofensas em qualquer rua perderá soma que não exceda cinco libras por cada ofensa ou será presa com ou sem trabalho forçado por termo que não exceda um mês - isto é:</p>
+<p>Toda pessoa que <strong>cantar qualquer canção profana ou obscena</strong> ou balada.</p>
+<p>Toda pessoa que extingua a luz ou destrua ou danifique qualquer luminária de rua.</p>
+<p>Com essa proclamação, nota-se que manifestações culturas tradicionalmente associadas a sujeitos negros eram criminalizadas pelo governo colonial e suas punições variavam em função de leituras da realidade que envolviam noções de civilização, barbárie e raça.</p>
+<p>As punições mais frequentes eram prisão, com ou sem trabalho forçado e multas. O tempo da pena na cadeia dependia de tipo de crime cometido. Os crimes mais duramente punidos pela legislação e mais reprimidos nas ruas eram brigas – especialmente aquelas envolvendo o uso de <em>sticks</em> [cacetes] –, embriaguez e desordem, obscenidade, indecência e distúrbio da paz. Nas páginas do principal jornal da colônia, o <em>Port-of-Spain Gazette</em>, encontramos recorrentes notícias sobre prisões e sanções legais referentes a práticas carnavalescas.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-revolta-do-canboulay-1881" class="slide level2 center">
+<h2><strong>A Revolta do <em>Canboulay</em> (1881)</strong></h2>
+<ul>
+<li>Resposta à repressão do chefe de polícia Capitão Baker.</li>
+<li>Unificação dos grupos de <em>Canboulay</em> contra a opressão.</li>
+<li>Resultado: garantia da prática carnavalesca com anuência do governador.</li>
+</ul>
+<aside class="notes">
+<p>Na proclamação assinada pelo Governador Freeling em 1882, a punição mais severa estava direcionada a indivíduos mascarados que agredissem alguém, com punição de até seis meses com trabalho forçado. Tal medida é uma resposta direta a Revolta do <em>Canboulay</em> de 1881. Essa revolta constitui um marco na história da cidade de Port-of-Spain e de toda a colônia. Em resposta a medidas repressivas adotadas pelo chefe de polícia, Capitão Baker, entre os anos de 1877 e 1881, os variados e historicamente rivais grupos de <em>Canboulay</em> da cidade se unem contra a polícia. Utilizando cacetes e reivindicando direitos, os revoltosos conquistam a garantia de manter sua prática carnavalesca, recebendo a anuência do governador (BRASIL, 2016a, 2016b).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="a-revolta-do-canboulay-1881-1" class="slide level2 center">
+<h2><strong>A Revolta do <em>Canboulay</em> (1881)</strong></h2>
+<p>Para saber mais sobre a Revolta do <em>Canboulay</em>, acesse:</p>
+<ul>
+<li><a href="https://doi.org/10.46752/anphlac.20.2016.2477">Carnaval como direito: A Revolta Canboulay de 1881, em Porto de Espanha, Trinidad. <em>Revista Eletrônica da ANPHLAC</em>, n.&nbsp;20, p.&nbsp;48–77, 27 jun. 2016. DOI: 10.46752/anphlac.20.2016.2477</a></li>
+</ul>
+</section>
+<section id="repressão-racializada-o-caso-de-1898" class="slide level2 center">
+<h2><strong>Repressão racializada: O Caso de 1898</strong></h2>
+<ul>
+<li>Prisão de membros da New Town Band por “desordem” e uso de cacetes.</li>
+<li>Sentenças variam conforme origem étnica, refletindo o racismo colonial.</li>
+<li>Diferenciação nas penalidades para reforçar hierarquias raciais.</li>
+</ul>
+<aside class="notes">
+<p>Ao mesmo tempo era referendado pelas punições concedidas pelos magistrados coloniais.</p>
+<p>Na segunda-feira de carnaval de 1898, um grupo formado por Alphonse Sampson, Charles Pierre, George Simmons, John Joseph, Samuel Prescod, Willie Jones, Arthur Wiles, Suhadah, Ramjohn e Miguel foi encaminhado para a corte de polícia pelo Sargento Eversley. A acusação era “<strong>estar armado com cacete e formar um grupo com mais de dez pessoas</strong>”. Segundo o Sargento, Sampson era membro da <em>New Town Band</em> e após ser desafiado pelos membros da <em>Junction Band</em>, ele liderou uma “grande multidão em direção da ponte, onde a batalha ocorreria”. Eram grupos de <em>Canboulay</em>, temidos pela polícia, especialmente após a revolta de 1881.</p>
+<p>Após ouvir os relatos do sargento, o Juiz de Paz H. P. Hobson explicou aos acusados “a natureza de seu crime” e proferiu sua sentença. <strong>Sampson, “um velho conhecido nos tumultos”, foi condenado a seis meses com trabalho forçado</strong>. Essa era a pena máxima prevista na <em>Proclamation</em> de 1882, e ele a recebe mesmo sem agredir fisicamente outras pessoas. Pierre, Wiles e Jones foram condenados a pagar multa de duas libras ou passar um mês na prisão. Esse valor era elevadíssimo para qualquer trabalhador urbano de Port-of-Spain da época. As punições de Simmons, Joseph, Prescod não são descritas no jornal.</p>
+<p>Porém, é muito importante notar que três indivíduos tiveram suas penas abrandadas pelo juiz. Suhadah, Ramjohn e Miguel são descritos como “os <em>coolies</em> e um espanhol” receberam uma multa de 10 <em>shillings</em> cada um. Vinte <em>shillings</em> correspondiam a uma libra. Isso quer dizer que Pierre, Wiles e Jones foram punidos com multas quatro vezes maiores do que os dois imigrantes indianos e o espanhol Miguel. Esse último, inclusive, alegou que era inocente e que estava apenas de passagem e foi confundido na multidão.</p>
+<p>Esse caso nos ajuda a compreender as redes coercitivas na colônia de Trinidad e seus aspectos racializados. Participar de um grupo carnavalesco, ocupar as ruas, desafiar rivais utilizando cacetes constitui ameaça pujante aos ideais de império, civilização e ordem das elites coloniais. As punições diferentes aos trabalhadores imigrantes indianos e ao espanhol reforçam o aspecto racial desses projetos de controle e repressão.</p>
+<p>O argumento da desordem e da embriaguez, da linguagem obscena, da indecência como caminhos para “distúrbios da paz”, também era elemento central na repressão aos homens e mulheres negras que buscavam ocupar as ruas durante o carnaval. Como no carnaval de 1895, quando Brownie Griffith foi acusado pelo policial Sharpie de estar bêbado e causar desordens. Ele foi punido por sete dias de trabalho forçado. Griffith já era conhecido das autoridades policiais e já havia recebido dez condenações anteriores (<em>Port-of-Spain Gazette</em>, 26 de fevereiro de 1895, p.&nbsp;4).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="narrativas-da-imprensa-classe-raça-e-moralidade" class="slide level2 center">
+<h2><strong>Narrativas da Imprensa: classe, raça e moralidade</strong></h2>
+<blockquote>
+<p>“Ontem à noite o Carnaval chegou ao fim… Por nossa parte, por mais que gostemos de ver o povo se divertir, <strong>consideramos o Carnaval extremamente desmoralizante</strong>. Não há nada nele que eleve de alguma forma, e deve ser doloroso para o espectador que pensa seriamente testemunhar quantas mentes jovens da classe baixa […] são corrompidas e perdidas nesses dois dias.”<br>
+<em>(Port-of-Spain Gazette, 13 de fevereiro de 1898)</em></p>
+</blockquote>
+</section>
+<section id="section" class="slide level2 center">
+<h2></h2>
+<p>Para uma perspectiva transnacional entre as experiências negras de Rio de Janeiro, Port-of-Spain e Martinica, veja os artigos:</p>
+<ul>
+<li><p><a href="https://doi.org/10.15448/1980-864X.2020.3.33507">BRASIL, Eric. Cordões e Canboulay Bands: Performances negras no Pós Abolição (Rio de Janeiro e Port-of-Spain). Estudos Ibero-Americanos, v. 46, n.&nbsp;3, p.&nbsp;e33507, 2020.</a></p></li>
+<li><p>BRASIL, Eric; CANELAS, L. . Kalendas, Bamboula e Canboulay: um estudo transnacional sobre Afro-Américas (Martinica e Trinidad, cc. 1780 - 1850). In: Souza; Acruche. (Org.). <strong>História das Américas</strong>: apontamentos iniciais de ensino e pesquisas. Juiz de Fora: Editora UFJF, 2021, p.&nbsp;151-170.</p></li>
+</ul>
+</section>
+<section id="conclusão" class="slide level2 center">
+<h2><strong>Conclusão</strong></h2>
+<ul>
+<li><strong>Trabalho Forçado como Repressão</strong>:
+<ul>
+<li>O uso do trabalho forçado como punição para as performances do <em>Canboulay</em> recriava condições semelhantes à escravidão.</li>
+<li>Trabalhadores urbanos de Trinidad viviam sob a constante ameaça de serem submetidos a essas formas de coerção.</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>O recurso à punição com trabalho forçado para pessoas que praticavam o <em>Canboulay</em> ou outras performances que eram consideradas perigosas, colocava para os trabalhadores urbanos da colônia a ameaça constante de serem submetidos a condições de trabalho semelhantes à escravidão.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="conclusão-1" class="slide level2 center">
+<h2><strong>Conclusão</strong></h2>
+<ul>
+<li><strong>Memórias da Escravidão e Resistência</strong>:
+<ul>
+<li>A emancipação ocorreu em 1834, mas as memórias da escravidão permaneciam vivas entre os foliões.</li>
+<li>O trabalho forçado e contratado (<em>indenture labour</em>) continuava a ser uma prática no império britânico, do Caribe à Ásia.</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Muitos desses foliões mantinham memórias da escravidão e da abolição bem vivas em suas mentes, visto que a emancipação definitiva só aconteceu em 1834, e as diferentes formas de trabalho forçado e contratado [<em>identiture labour</em>] eram uma prática recorrente no império britânico no Caribe, na África e na Ásia.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="conclusão-2" class="slide level2 center">
+<h2><strong>Conclusão</strong></h2>
+<ul>
+<li><strong>Carnaval como Contraponto Antirracista</strong>:
+<ul>
+<li>Na virada do século XIX para o XX, o carnaval de Trinidad tornou-se um espaço de luta por humanidade e autoafirmação.</li>
+<li>As performances negras desafiavam as tentativas de imposição das ideologias racistas e dos projetos de civilização imperialistas.</li>
+<li>Por isso, o carnaval foi alvo de redes coercitivas que buscavam controlar e limitar essa expressão cultural.</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Em Trinidad, na virada do século XIX para o XX, auge dos debates sobre civilização, das teorias racistas, e da dominação colonial britânica, o carnaval constitui um espaço de luta por humanidade e auto-afirmação para a população negra. E, por isso mesmo, foi alvo das mais complexas redes coercitivas desenvolvidas pelas elites e autoridades coloniais, buscando controlar, limitar e punir performances negras, inclusive reduzindo seus atores principais ao trabalho forçado.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="contatos" class="slide level2 center">
+<h2><strong>Contatos</strong></h2>
+<ul>
+<li><a href="https://ericbrasil.com.br">Site: ericbrasil.com.br</a></li>
+<li><a href="mailto:profericbrasil@unilab.edu.br">Email: profericbrasil@unilab.edu.br</a></li>
+<li><a href="https://linktr.ee/ericbrasil">Linktree: linktr.ee/ericbrasil</a></li>
+</ul>
+
+<img src="qrcode_contato.png" width="200px" class="r-stretch"></section>
+<section id="obrigado" class="slide level2 center">
+<h2><strong>Obrigado!</strong></h2>
+<div class="quarto-auto-generated-content">
+<div class="footer footer-default">
+<p><a href="https://ericbrasil.com.br/">Eric Brasil</a> | <a href="https://ericbrasil.com.br/contact/">Entre em contato</a></p>
+</div>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="slides_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="slides_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="slides_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copiada");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copiada");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>

@@ -1,0 +1,419 @@
+---
+title: "Carnaval, colonialismo e repressão em Port-of-Spain, Trinidad (1880-1900)"
+author: Eric Brasil (Unilab)
+date: 2024-11-06
+lang: pt-BR
+format:
+  revealjs: 
+    theme: white
+    slide-number: true
+    incremental: false 
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    footer: "<a href=https://ericbrasil.com.br/>Eric Brasil</a> | <a href=https://ericbrasil.com.br/contact/>Entre em contato</a>"
+---
+
+## **Introdução** {.center}
+
+- Disputa pelo espaço urbano em Port-of-Spain, Trinidad.
+- Controle e repressão de performances negras pelas forças coloniais.
+- Reflexões sobre civilização e resistência cultural.
+
+::: notes
+Essa fala busca apresentar a disputa pelo espaço urbano nos dias de
+carnaval na cidade de Port-of-Spain, sede da colônia inglesa de Trinidad
+e Tobago entre as décadas de 1880 e 1900. Pretendo destacar a história
+social do carnaval na Ilha a partir da experiência da população negra, e
+como as forças coloniais buscaram controlar e reprimir suas performances
+a partir da construção de redes coercitivas, envolvendo imprensa, forças
+policiais e agentes judiciários. Ao final pretendo refletir sobre as
+variadas concepções de civilização em disputa na cidade de
+Port-of-Spain e como tais performances afro-americanas criavam
+dissonâncias na política colonal racista inglesa.
+
+Essas reflexões são resultado do projeto de pesquisa "Música, raça e
+colonialismo no Caribe: experiências negras em Trinidad e Tobago (cc.
+1900 -- 1920)", desenvolvido com bolsa de iniciação científica no campus
+dos Malês, da Universidade da Integração Internacional da Lusofonia
+Afro-brasileira (Unilab/Malês). Esse trabalho não seria possível sem a
+participação do bolsista Beto Infande.
+
+As fontes primárias foram recolhidas nos arquivos coloniais britânicos
+no ano de 2014, no âmbito de pesquisa anterior financiada pelo Cnpq.
+Essas fontes encontram-se ainda inéditas em pesquisas no Brasil e são
+formadas por periódicos, documentos policiais e coloniais e legislação.
+
+:::
+
+---
+
+## **Carnaval e Pós-Abolição no Caribe: o caso de Trinidad** {.center}
+
+- Contexto histórico: colônia britânica com forte herança espanhola e francesa.
+- O Canboulay: ressignificação de tradições africanas e resistência cultural.
+- Transformações pós-abolição e a afirmação da identidade negra.
+
+::: notes
+A partir do final do século XVIII, a ilha de Trinidad passou a ser
+colônia Britânica. Porém os 300 anos de ocupação espanhola e a
+permanente migração de franceses, sobretudo após a revolução do Haiti,
+juntamente com muitos escravos e negros livres de outras ilhas do
+caribe, fez com que a ilha, mesmo sob domínio de uma coroa protestante,
+teve uma festa carnavalesca pujante.
+
+A importância do carnaval na identidade nacional de Trinidad e Tobago é
+tamanha que as escolas públicas possuem suas próprias bandas
+carnavalescas e concursos de Calypso. A festa é considerada o grande
+símbolo identitário da nação, catalisando diferentes tradições.
+
+Contudo, antes de chegar a esse ponto, a história do carnaval na ilha
+foi disputada por inúmeros grupos sociais e o ápice dessas tensões
+situou-se nas últimas décadas do século XIX e na passagem para o século
+XX. A história da ilha de Trinidad, bem mais do que a de Tobago, foi
+marcada pela grande heterogeneidade social, que se intensificou
+justamente nesse período. Franceses (e descendentes) e ingleses
+permaneciam na disputa pela manutenção de seus postos de comando e de
+seu status social privilegiado; trabalhadores indianos chegaram em
+grande número ao longo do século XIX, sob condições de trabalho
+contratado, e aumentaram as tensões e a multiplicidade cultural dessa
+sociedade. Ao mesmo tempo os africanos e seus descendentes lutavam por
+espaço, sobretudo após a abolição da escravidão em 1834 (WOODING, 1960,
+p. 147).
+
+A abolição da escravidão foi um marco importante para o carnaval da
+ilha. Os libertos ocuparam a festa e a transformaram, dotando-a de novos
+sentidos. O **Canboulay** (corruptela da expressão francesa *Cannes
+Brûlées*, da queima da cana de açúcar antes da colheita), uma sátira dos
+brancos sobre o mundo dos negros na *plantation*, que era
+tradicionalmente encenado pelos franceses no carnaval em uma performance
+de *blackface*, foi ressignificado pelos libertos. Segundo J.D. Elder, o
+**Canboulay**
+
+como uma instituição artística negra em Trinidad e Tobago, deve ser
+definida como uma cerimônia simbólica multimídia, na qual suas mensagens
+psicológicas assumem diversas formas e se manifestam em uma variedade de
+comportamentos artísticos -- criação musical, poesia, linguagens
+vernaculares, teatro, dança e outros gestos acrobáticos. Cada um desses
+meios está ancorado na matriz das tradições culturais africanas trazidas
+para o Caribe por migrantes, principalmente da África Ocidental. (ELDER,
+1998, p. 48)
+
+Os grupos de **Canboulay** atravessavam as ruas à noite, batendo tambores,
+carregando tochas numa cidade de madeira. Os tambores e archotes eram
+acompanhados pelo sopro de chifres e "danças africanas". Suas músicas
+satirizavam as classes dominantes e faziam troças com o estilo de vida
+europeu. Se já não fosse o bastante ostentar símbolos condenados como
+primitivos e bárbaros nos jornais, a principal fantasia dos membros do
+grupo era o *negre jardin*, armado com cacete (*bois*, *poui*, *stick*)
+para duelos nas ruas (ELDER, 1998, p. 49). O *stickfighting*, tornou-se,
+desta forma, um importante instrumento de violência e pressão nas mãos
+do proletariado urbano, organizado em grupos (*bands*) que existiam por
+todo o ano e saíam às ruas no carnaval (KONINGSBRUGGEN, 1997, p. 18).
+
+Socialmente, os participantes desse carnaval de rua, eram jovens homens
+e mulheres negras que moravam nos *Barracks*, cortiços urbanos. As
+condições de vida eram muito difíceis: antigos casarões de madeira,
+dividas em quartos onde moravam famílias inteiras, sem privacidade, com
+constante disputa por água e pelo uso de banheiros. Tais disputas eram
+refletidas também nas formas artísticas: desafios verbais e físicos (com
+cacetes). Esses grupos eram encarados pela imprensa, polícia e
+autoridades locais como as principais ameaças à ordem e aos projetos de
+civilização e participação no império britânico.
+
+As duas últimas décadas do século XIX foram marcadas por intensa
+repressão colonial sobre tais práticas e seus sujeitos, o que gerou
+inúmeras revoltas e conflitos. Buscavam o silenciamento das práticas
+consideradas obscenas, violentas, bárbaras que, na prática,
+representavam as tradições dos trabalhadores urbanos de Port-of-Spain,
+esmagadoramente formada por afro-americanos.
+
+Segundo Peter van Koningsbruggen, ex-escravos e descendentes, imigrantes
+das ilhas do Caribe, africanos livres e seus descendentes possuíam em
+comum a exclusão da participação política, ocupavam as posições
+econômicas mais baixas, suas condições de vida eram péssimas e suas
+práticas culturais eram perseguidas e desqualificadas. Assim, o carnaval
+serviu aos negros de Trinidad como uma chance de expressar orgulho nos
+seus próprios valores, ao mesmo tempo em que ridicularizavam as classes
+superiores, através do **Canboulay**.
+
+:::
+
+---
+
+## **Carnaval e Pós-Abolição no Caribe: o caso de Trinidad** {.center}
+
+Para saber mais sobre os impactos a Abolição da escravidão no Carnaval e história de Trinidad, acesse:
+
+- [BRASIL, Eric. Abolição e Carnaval: performance e experiência social negra em Trinidad (cc. 1790-1850). *Revista de Estudos e Pesquisas sobre as Américas*, v. 12, n. 3, p. 204–227, 2018. DOI: 10.21057/repamv12n3.2018.30939.](https://doi.org/10.21057/repamv12n3.2018.30939)
+
+---
+
+## **Colonialismo e carnaval: redes coercitivas** {.center}
+
+- Conceito de **Redes Coercitivas** (SHERMAN, 2009): formas interligadas de controle e punição.
+- Punições incluem prisão, trabalho forçado e multas altas.
+- A imprensa e autoridades coloniais reforçam a criminalização das práticas culturais negras.
+
+:::notes
+Buscando compreender o funcionamento da repressão e do controle no
+contexto do imperialismo britânico, Taylor Sherman (2009) utiliza o
+conceito de redes coercitivas (*Coercive Networks*), o que permite
+pensar num sistema mais amplo de punição colonial, relacional e
+historicamente localizado. Essa perspectiva nos possibilita reconhecer
+que as punições às práticas culturais negras no contexto colonial não se
+limitavam a uma única instituição, como a polícia. Na verdade, as
+práticas punitivas e de controle imperial variavam de atirar em
+multidões e utilizar bombardeio aéreo, para demissões do trabalho;
+passando pelo controle dos espaços educativos, multas coletivas,
+confisco de propriedade, bem como prisão, punição corporal e capital.
+
+Também, vale ressaltar que o termo 'rede coercitiva' para esta autora,
+não pretende implicar que tal sistema era coeso ou coerente. Pelo
+contrário, nos ajuda a compreender a natureza interligada das diferentes
+sanções penais coloniais. Em outras palavras, "as práticas que
+constituíam redes coercitivas eram definidas não tanto pela disciplina e
+arregimentação, mas pela contradição e pela imprevisibilidade que
+surgiam de sistemas repletos de tensões" (SHERMAN, 2009, p. 669).
+
+Pensando nas redes coercitivas do governo colonial britânico em
+Trinidad, seus elementos eram variáveis e não deixavam o carnaval de
+fora. As formas de repressão à festa passava tanto pela produção textual
+da imprensa, quanto pela ação policial nas ruas e os julgamentos e
+punições definidas por magistrados coloniais. O projeto colonial
+britânico, nessas múltiplas frentes, entendeu as práticas negras
+carnavalescas como principal antagonista na passagem do século XIX para
+o XX, sendo alvo recorrente de uma complexa rede de coerção.
+
+:::
+
+---
+
+## **Proclamação do Governador (1882)** {.center}
+
+> "Qualquer pessoa que estiver **mascarada, ou disfarçada de outra maneira, agredir ou espancar ilegalmente qualquer outra pessoa**, deverá ser condenada perante a Justiça e **presa com trabalho forçado** por um período não superior a seis meses. [grifos meus]"
+> *(Port-of-Spain Gazette, 18 de fevereiro de 1882, p.3)*
+
+::: notes
+Para sustentar mais esta afirmação é importante analisar a proclamação
+governador Sanford Freeling de 18 de fevereiro de 1882 (*Port-of-Spain
+Gazette*, p.3). A proclamação dizia o seguinte:
+
+Qualquer pessoa que estiver **mascarada, ou disfarçada de outra
+maneira,** **agredir ou espancar** ilegalmente qualquer outra pessoa,
+deverá ser condenada perante uma Justiça e presa com trabalho forçado
+por um período não superior a seis meses.
+
+Qualquer pessoa que esteja **embriagada e promova desordem** em qualquer
+rua, e qualquer pessoa culpada de qualquer comportamento desenfreado ou
+indecente, ou insultuoso, obstruindo, ou irritando qualquer pessoa
+passando, perderá quantia não superior a cinco libras para cada tal
+ofensa, ir preso com ou sem trabalho forçado por período não superior a
+dois meses.
+
+Qualquer pessoa fazendo uso de qualquer **linguagem violenta ou obscena
+com a intenção de provocar qualquer outra pessoa a cometer uma violação
+da paz**, e qualquer pessoa que use qualquer linguagem obscena ou
+profana para aborrecimento de qualquer residente ou passageiro em
+qualquer rua, ou perturbar a paz perderá soma não superior a cinco
+libras ou ser preso com ou sem trabalho forçado por qualquer termo não
+superior a trinta dias.
+
+Toda pessoa que cometer qualquer das seguintes ofensas em qualquer rua
+perderá soma que não exceda cinco libras por cada ofensa ou será presa
+com ou sem trabalho forçado por termo que não exceda um mês - isto é:
+
+Toda pessoa que **cantar qualquer canção profana ou obscena** ou balada.
+
+Toda pessoa que extingua a luz ou destrua ou danifique qualquer
+luminária de rua.
+
+Com essa proclamação, nota-se que manifestações culturas
+tradicionalmente associadas a sujeitos negros eram criminalizadas pelo
+governo colonial e suas punições variavam em função de leituras da
+realidade que envolviam noções de civilização, barbárie e raça.
+
+As punições mais frequentes eram prisão, com ou sem trabalho forçado e
+multas. O tempo da pena na cadeia dependia de tipo de crime cometido. Os
+crimes mais duramente punidos pela legislação e mais reprimidos nas ruas
+eram brigas -- especialmente aquelas envolvendo o uso de *sticks*
+\[cacetes\] --, embriaguez e desordem, obscenidade, indecência e
+distúrbio da paz. Nas páginas do principal jornal da colônia, o
+*Port-of-Spain Gazette*, encontramos recorrentes notícias sobre prisões
+e sanções legais referentes a práticas carnavalescas.
+
+:::
+
+---
+
+## **A Revolta do *Canboulay* (1881)** {.center}
+
+- Resposta à repressão do chefe de polícia Capitão Baker.
+- Unificação dos grupos de *Canboulay* contra a opressão.
+- Resultado: garantia da prática carnavalesca com anuência do governador.
+
+::: notes
+Na proclamação assinada pelo Governador Freeling em 1882, a punição mais
+severa estava direcionada a indivíduos mascarados que agredissem alguém,
+com punição de até seis meses com trabalho forçado. Tal medida é uma
+resposta direta a Revolta do *Canboulay* de 1881. Essa revolta constitui
+um marco na história da cidade de Port-of-Spain e de toda a colônia. Em
+resposta a medidas repressivas adotadas pelo chefe de polícia, Capitão
+Baker, entre os anos de 1877 e 1881, os variados e historicamente rivais
+grupos de *Canboulay* da cidade se unem contra a polícia. Utilizando
+cacetes e reivindicando direitos, os revoltosos conquistam a garantia de
+manter sua prática carnavalesca, recebendo a anuência do governador
+(BRASIL, 2016a, 2016b).
+
+:::
+
+---
+
+## **A Revolta do *Canboulay* (1881)** {.center}
+
+Para saber mais sobre a Revolta do *Canboulay*, acesse:
+
+- [Carnaval como direito: A Revolta Canboulay de 1881, em Porto de Espanha, Trinidad. *Revista Eletrônica da ANPHLAC*, n. 20, p. 48–77, 27 jun. 2016. DOI: 10.46752/anphlac.20.2016.2477](https://doi.org/10.46752/anphlac.20.2016.2477)
+
+---
+
+## **Repressão racializada: O Caso de 1898** {.center}
+
+- Prisão de membros da New Town Band por "desordem" e uso de cacetes.
+- Sentenças variam conforme origem étnica, refletindo o racismo colonial.
+- Diferenciação nas penalidades para reforçar hierarquias raciais.
+
+:::notes
+Ao mesmo tempo era referendado pelas punições concedidas pelos
+magistrados coloniais.
+
+Na segunda-feira de carnaval de 1898, um grupo formado por Alphonse
+Sampson, Charles Pierre, George Simmons, John Joseph, Samuel Prescod,
+Willie Jones, Arthur Wiles, Suhadah, Ramjohn e Miguel foi encaminhado
+para a corte de polícia pelo Sargento Eversley. A acusação era "**estar
+armado com cacete e formar um grupo com mais de dez pessoas**". Segundo
+o Sargento, Sampson era membro da *New Town Band* e após ser desafiado
+pelos membros da *Junction Band*, ele liderou uma "grande multidão em
+direção da ponte, onde a batalha ocorreria". Eram grupos de *Canboulay*,
+temidos pela polícia, especialmente após a revolta de 1881.
+
+Após ouvir os relatos do sargento, o Juiz de Paz H. P. Hobson explicou
+aos acusados "a natureza de seu crime" e proferiu sua sentença.
+**Sampson, "um velho conhecido nos tumultos", foi condenado a seis meses
+com trabalho forçado**. Essa era a pena máxima prevista na
+*Proclamation* de 1882, e ele a recebe mesmo sem agredir fisicamente
+outras pessoas. Pierre, Wiles e Jones foram condenados a pagar multa de
+duas libras ou passar um mês na prisão. Esse valor era elevadíssimo para
+qualquer trabalhador urbano de Port-of-Spain da época. As punições de
+Simmons, Joseph, Prescod não são descritas no jornal.
+
+Porém, é muito importante notar que três indivíduos tiveram suas penas
+abrandadas pelo juiz. Suhadah, Ramjohn e Miguel são descritos como "os
+*coolies* e um espanhol" receberam uma multa de 10 *shillings* cada um.
+Vinte *shillings* correspondiam a uma libra. Isso quer dizer que Pierre,
+Wiles e Jones foram punidos com multas quatro vezes maiores do que os
+dois imigrantes indianos e o espanhol Miguel. Esse último, inclusive,
+alegou que era inocente e que estava apenas de passagem e foi confundido
+na multidão.
+
+Esse caso nos ajuda a compreender as redes coercitivas na colônia de
+Trinidad e seus aspectos racializados. Participar de um grupo
+carnavalesco, ocupar as ruas, desafiar rivais utilizando cacetes
+constitui ameaça pujante aos ideais de império, civilização e ordem das
+elites coloniais. As punições diferentes aos trabalhadores imigrantes
+indianos e ao espanhol reforçam o aspecto racial desses projetos de
+controle e repressão.
+
+O argumento da desordem e da embriaguez, da linguagem obscena, da
+indecência como caminhos para "distúrbios da paz", também era elemento
+central na repressão aos homens e mulheres negras que buscavam ocupar as
+ruas durante o carnaval. Como no carnaval de 1895, quando Brownie
+Griffith foi acusado pelo policial Sharpie de estar bêbado e causar
+desordens. Ele foi punido por sete dias de trabalho forçado. Griffith já
+era conhecido das autoridades policiais e já havia recebido dez
+condenações anteriores (*Port-of-Spain Gazette*, 26 de fevereiro de
+1895, p. 4).
+
+:::
+
+---
+
+## **Narrativas da Imprensa: classe, raça e moralidade** {.center}
+
+> "Ontem à noite o Carnaval chegou ao fim... Por nossa parte, por mais que gostemos de ver o povo se divertir, **consideramos o Carnaval extremamente desmoralizante**. Não há nada nele que eleve de alguma forma, e deve ser doloroso para o espectador que pensa seriamente testemunhar quantas mentes jovens da classe baixa [...] são corrompidas e perdidas nesses dois dias."  
+> *(Port-of-Spain Gazette, 13 de fevereiro de 1898)*
+
+---
+
+## {.center}
+
+Para uma perspectiva transnacional entre as experiências negras de Rio de Janeiro, Port-of-Spain e Martinica, veja os artigos:
+
+- [BRASIL, Eric. Cordões e Canboulay Bands: Performances negras no Pós Abolição (Rio de Janeiro e Port-of-Spain). Estudos Ibero-Americanos, v. 46, n. 3, p. e33507, 2020.](https://doi.org/10.15448/1980-864X.2020.3.33507)
+
+- BRASIL, Eric; CANELAS, L. . Kalendas, Bamboula e Canboulay: um estudo transnacional sobre Afro-Américas (Martinica e Trinidad, cc. 1780 - 1850). In: Souza; Acruche. (Org.). **História das Américas**: apontamentos iniciais de ensino e pesquisas. Juiz de Fora: Editora UFJF, 2021, p. 151-170.
+
+
+---
+
+## **Conclusão** {.center}
+
+- **Trabalho Forçado como Repressão**:  
+  - O uso do trabalho forçado como punição para as performances do *Canboulay* recriava condições semelhantes à escravidão.
+  - Trabalhadores urbanos de Trinidad viviam sob a constante ameaça de serem submetidos a essas formas de coerção.
+
+:::notes
+O recurso à punição com trabalho forçado para pessoas que praticavam o
+*Canboulay* ou outras performances que eram consideradas perigosas,
+colocava para os trabalhadores urbanos da colônia a ameaça constante de
+serem submetidos a condições de trabalho semelhantes à escravidão.
+:::
+
+---
+
+## **Conclusão** {.center}
+
+- **Memórias da Escravidão e Resistência**:  
+  - A emancipação ocorreu em 1834, mas as memórias da escravidão permaneciam vivas entre os foliões.
+  - O trabalho forçado e contratado (*indenture labour*) continuava a ser uma prática no império britânico, do Caribe à Ásia.
+
+:::notes
+Muitos desses foliões mantinham memórias da escravidão e da abolição bem
+vivas em suas mentes, visto que a emancipação definitiva só aconteceu em
+1834, e as diferentes formas de trabalho forçado e contratado
+\[*identiture labour*\] eram uma prática recorrente no império britânico
+no Caribe, na África e na Ásia.
+:::
+
+---
+
+## **Conclusão** {.center}
+
+- **Carnaval como Contraponto Antirracista**:  
+  - Na virada do século XIX para o XX, o carnaval de Trinidad tornou-se um espaço de luta por humanidade e autoafirmação.
+  - As performances negras desafiavam as tentativas de imposição das ideologias racistas e dos projetos de civilização imperialistas.
+  - Por isso, o carnaval foi alvo de redes coercitivas que buscavam controlar e limitar essa expressão cultural.
+
+:::notes
+Em Trinidad, na virada do século XIX para o XX, auge dos debates sobre
+civilização, das teorias racistas, e da dominação colonial britânica, o
+carnaval constitui um espaço de luta por humanidade e auto-afirmação
+para a população negra. E, por isso mesmo, foi alvo das mais complexas
+redes coercitivas desenvolvidas pelas elites e autoridades coloniais,
+buscando controlar, limitar e punir performances negras, inclusive
+reduzindo seus atores principais ao trabalho forçado.
+
+:::
+
+---
+
+## **Contatos** {.center}
+
+- [Site: ericbrasil.com.br](https://ericbrasil.com.br)
+- [Email: profericbrasil@unilab.edu.br](mailto:profericbrasil@unilab.edu.br)
+- [Linktree: linktr.ee/ericbrasil](https://linktr.ee/ericbrasil)
+
+<img src="qrcode_contato.png" width="200px">
+---
+
+## **Obrigado!** {.center}
